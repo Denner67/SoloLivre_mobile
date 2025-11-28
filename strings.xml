@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SoloLivre</string>
+    <string name="cursos_disponiveis">Cursos Disponíveis</string>
+    <string name="aprenda_com_professores">Aprenda com professores certificados e especializados</string>
+    <string name="mais_popular">Mais popular</string>
+    <string name="comecar_agora">Começar agora</string>
+    <string name="alunos">alunos</string>
+    <string name="certificado">Certificado</string>
+    <string name="iniciante">Iniciante</string>
+    <string name="intermediario">Intermediário</string>
+    <string name="avancado">Avançado</string>
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <!-- Course Image -->
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp">
+
+            <ImageView
+                android:id="@+id/imgCourse"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:background="@drawable/rounded_corner"/>
+
+            <TextView
+                android:id="@+id/txtLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/iniciante"
+                android:textSize="10sp"
+                android:textColor="@color/white"
+                android:background="@color/primary_teal"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="8dp"
+                android:fontFamily="sans-serif-medium"/>
+        </RelativeLayout>
+
+        <!-- Course Info -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="12dp">
+
+            <TextView
+                android:id="@+id/txtCourseName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Violão do Zero ao Avançado"
+                android:textSize="16sp"
+                android:textColor="@color/text_primary"
+                android:fontFamily="sans-serif-medium"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/txtProfessor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prof. Carlos Silva"
+                android:textSize="12sp"
+                android:textColor="@color/text_secondary"
+                android:layout_marginBottom="8dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:id="@+id/txtRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⭐ 4.9"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_primary"
+                    android:layout_marginEnd="12dp"/>
+
+                <TextView
+                    android:id="@+id/txtStudents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="👥 1243"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_primary"
+                    android:layout_marginEnd="12dp"/>
+
+                <TextView
+                    android:id="@+id/txtDuration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🕐 12 horas"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_primary"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/txtPrice"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="R$ 299"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_primary"
+                    android:fontFamily="sans-serif-medium"/>
+
+                <TextView
+                    android:id="@+id/txtCertified"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="✓ Certificado"
+                    android:textSize="11sp"
+                    android:textColor="@color/certified_green"
+                    android:fontFamily="sans-serif-medium"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Solo Livre</string>
+    
+    <!-- Navegação -->
+    <string name="nav_inicio">Início</string>
+    <string name="nav_loja">Loja</string>
+    <string name="nav_cursos">Cursos</string>
+    
+    <!-- Tela Início -->
+    <string name="bem_vindo">Bem-vindo ao Solo Livre!</string>
+    <string name="subtitulo_inicio">Sua jornada musical começa aqui</string>
+    <string name="destaques">Destaques</string>
+    <string name="novidades">Novidades</string>
+    <string name="ver_mais">Ver mais</string>
+    
+    <!-- Tela Loja -->
+    <string name="titulo_loja">Instrumentos Musicais</string>
+    <string name="subtitulo_loja">Os melhores instrumentos para sua música</string>
+    <string name="categorias">Categorias</string>
+    <string name="violoes">Violões</string>
+    <string name="guitarras">Guitarras</string>
+    <string name="teclados">Teclados</string>
+    <string name="baterias">Baterias</string>
+    <string name="sopro">Sopro</string>
+    <string name="acessorios">Acessórios</string>
+    <string name="adicionar_carrinho">Adicionar ao Carrinho</string>
+    <string name="comprar">Comprar</string>
+    
+    <!-- Tela Cursos -->
+    <string name="titulo_cursos">Cursos de Música</string>
+    <string name="subtitulo_cursos">Aprenda com os melhores professores</string>
+    <string name="cursos_populares">Cursos Populares</string>
+    <string name="todos_cursos">Todos os Cursos</string>
+    <string name="iniciar_curso">Iniciar Curso</string>
+    <string name="aulas">aulas</string>
+    <string name="horas">horas</string>
+    <string name="alunos">alunos</string>
+    <string name="certificado">Certificado incluso</string>
+    
+    <!-- Geral -->
+    <string name="buscar">Buscar</string>
+    <string name="filtrar">Filtrar</string>
+    <string name="ordenar">Ordenar</string>
+    <string name="preco">Preço</string>
+    <string name="avaliacao">Avaliação</string>
+    <string name="desconto">Desconto</string>
+    <string name="gratis">Grátis</string>
+    <string name="novo">Novo</string>
+    <string name="popular">Popular</string>
+</resources>

@@ -1,0 +1,62 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema base do aplicativo Solo Livre -->
+    <style name="Theme.SoloLivre" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Cores principais -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        
+        <!-- Cores do Material 3 -->
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Cores de fundo -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:windowBackground">@color/background</item>
+        
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+    
+    <!-- Estilo para botões principais -->
+    <style name="SoloLivre.Button.Primary" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/accent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    
+    <!-- Estilo para botões secundários -->
+    <style name="SoloLivre.Button.Secondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    
+    <!-- Estilo para cards -->
+    <style name="SoloLivre.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/background_card</item>
+    </style>
+    
+    <!-- Estilo base para textos -->
+    <style name="SoloLivre.Text" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    
+    <!-- Estilo para títulos -->
+    <style name="SoloLivre.Text.Title" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    
+    <!-- Estilo para subtítulos -->
+    <style name="SoloLivre.Text.Subtitle" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>
