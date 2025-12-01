@@ -231,7 +231,7 @@ RELACIONAMENTOS:
 ### Passos
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/sololivre.git
+   git clone https://github.com/Denner67/SoloLivre_mobile
    ```
 
 2. Abra o projeto no Android Studio:
@@ -256,10 +256,8 @@ O APK estará em: `app/build/outputs/apk/debug/app-debug.apk`
 
 ## 👥 Equipe
 
-- [Nome do Aluno 1]
-- [Nome do Aluno 2]
-- [Nome do Aluno 3]
-
+Denner Ferreira de Morais
+Mychell Marques da Silva
 ---
 
 ## 📄 Licença
