@@ -169,7 +169,11 @@ Para expandir o projeto, você pode adicionar:
 Projeto desenvolvido para fins acadêmicos.
 
 ## 👨‍💻 Autor
-
+---
+Mychell Marques da Silva
+---
+Denner Ferreira de Morais
+---
 Desenvolvido como trabalho de faculdade.
 
 ---
