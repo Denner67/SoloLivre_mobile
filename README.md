@@ -257,6 +257,7 @@ O APK estará em: `app/build/outputs/apk/debug/app-debug.apk`
 ## 👥 Equipe
 
 Denner Ferreira de Morais
+---
 Mychell Marques da Silva
 ---
 
