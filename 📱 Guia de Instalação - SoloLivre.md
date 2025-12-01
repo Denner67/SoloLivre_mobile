@@ -1,6 +1,8 @@
 # 📱 Guia de Instalação - SoloLivre
 
-## Método 1: Importar no Android Studio (Recomendado)
+## Método 1: Baixar a aplicação presente no repositório, segue o link -> https://github.com/Denner67/SoloLivre_mobile/blob/main/SoloLivre.apk
+
+## Método 2: Importar no Android Studio (Recomendado)
 
 ### Passo 1: Instalar o Android Studio
 
@@ -52,7 +54,7 @@
 
 ---
 
-## Método 2: Compilar via Linha de Comando
+## Método 3: Compilar via Linha de Comando
 
 ### Pré-requisitos
 
