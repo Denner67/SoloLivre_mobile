@@ -355,23 +355,3 @@ git clone https://github.com/seu-usuario/sololivre.git
 
 ---
 
-## 📱 Screenshots
-
-[Adicionar capturas de tela do app aqui]
-
----
-
-## 👥 Equipe
-
-| Nome | RA | Função |
-|------|-----|--------|
-| [Aluno 1] | [RA] | Desenvolvimento Mobile |
-| [Aluno 2] | [RA] | Backend / Banco de Dados |
-| [Aluno 3] | [RA] | Documentação / Testes |
-
----
-
-**Data de Entrega:** [Data]
-**Disciplina:** [Nome da Disciplina]
-**Professor(a):** [Nome do Professor]
-
